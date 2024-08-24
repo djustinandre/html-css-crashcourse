@@ -165,3 +165,21 @@ form input:valid {
 /* nav li:first-child {
   border: 3px solid #f63232;
 } */
+
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* section.join p::first-letter {
+  font-size: 1.5em;
+} */
+
+p::selection {
+  background-color: #f63232;
+  color: white;
+}
+
+article p::after {
+  content: '...';
+}
